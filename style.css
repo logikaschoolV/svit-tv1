@@ -1,0 +1,829 @@
+body {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    /* Shop */
+width: 1280px;
+height: 4454px;
+overflow-y: scroll;
+background: #FFFFFF;
+}
+header{
+    /* Rectangle 1 */
+position: absolute;
+width: 1280px;
+height: 649px;
+left: 0px;
+top: 0px;
+background: linear-gradient(255.02deg, #67DCFC -0.86%, #0D769D 49.57%, #00B3FF 100%);
+
+}
+header h1{
+    /* Світ TV магазин */
+
+position: absolute;
+width: 487px;
+height: 75px;
+left: 413px;
+top: 370px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+h1:hover{
+    color:white;
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+.us-link{
+    /* Про нас */
+text-decoration: none;
+position: absolute;
+width: 180px;
+height: 56px;
+left: 204px;
+top: 220px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+}
+.us-link:hover{
+    color:white;
+}
+.vidguk{
+    /* Акція */
+text-decoration: none;
+position: absolute;
+width: 124px;
+height: 56px;
+left: 410px;
+top: 220px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+.vidguk:hover{
+    color:white;
+}
+.about{
+    /* Відгуки */
+text-decoration: none;
+position: absolute;
+width: 168px;
+height: 56px;
+left: 606px;
+top: 221px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+.about:hover{
+    color:white;
+}
+.me{
+    /* Де нас знайти */
+text-decoration: none;
+position: absolute;
+width: 321px;
+height: 56px;
+left: 823px;
+top: 220px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+.me:hover{
+    color:white;
+}
+.us{
+    /* Про нас */
+
+position: absolute;
+width: 170px;
+height: 96px;
+left: 262px;
+top: 659px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+}
+.img{
+    /* image */
+
+position: absolute;
+width: 400px;
+height: 400px;
+left: 840px;
+top: 701px;
+
+background: url(image.png);
+
+}
+.sweet{
+    /* SWEET.TV — додаток із найкращими телеканалами, ексклюзивними українськими фільмами та прем'єрами від Disney, Warner Brothers та Paramount!  ​​🔥​ Підключайся та отримай перші 7 днів безкоштовного перегляду без прив'язування картки. На один тариф можна одночасно підключити до 5 пристроїв, серед яких Smart TV, телефони, планшети, ноутбуки чи Xbox  📺 330+ телеканалів, зокрема в HD та 4K: національні, фільмові, пізнавальні, дитячі, спортивні та ін  🕹 Керуй прямим ефіром ТБ: став на паузу, перемотуй і дивись телепрограми в записі до 7 діб  🎬 10 000+ фільмів, серіалів, серед яких є українські ексклюзиви та голлівудські прем'єри від Disney, Warner Brothers, Paramount та ін.  ✨ Шедеври мультиплікації від Disney, Pixar, DreamWorks та ін. для дітей будь-якого віку та всієї родини  ❌ Без реклами в кінозалі  Спробуй зараз та отримуй від наших експертів персоналізовані підбірки контенту на кожен день. Оновлено */
+
+position: absolute;
+width: 803px;
+height: 128px;
+left: 20px;
+top: 745px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+.tovar {
+    /* Каталог акція тиждня загеструйся до світ TV получай7 днів безплатно фільмів і більше */
+
+position: absolute;
+width: 1103px;
+height: 154px;
+left: 549px;
+top: 1309px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+
+.tovar-h3{
+    position: absolute;
+    width:1200px;
+    height: 100px;
+    left: 509px;
+    top:1359px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+
+    color: #000000;
+}
+.tovar-h3:hover{
+     transition: 1s linear;
+    transform: scale(1.5);
+    
+}
+.tovar-h4{
+    /* Каталог акція тиждня загеструйся до світ TV получай7 днів безплатно фільмів і більше */
+
+position: absolute;
+width: 1503px;
+height: 154px;
+left: 3509;
+top: 1409px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.cat-img{
+    /* image */
+
+position: absolute;
+width: 315px;
+height: 250px;
+left: 100px;
+top: 1499px;
+opacity: 0.5;
+z-index: 0;
+background: url(image.png);
+
+}
+.cat-img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition:1.5s linear;
+    box-shadow: 3px 3px 3px 3px royalblue;
+    z-index: 1;
+}
+.cat-h4{
+    /*  Кіт у чоботях 2: Останнє бажання */
+
+position: absolute;
+width: 265px;
+height: 76px;
+left: 112px;
+top: 1760px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 34px;
+
+color: #000000;
+
+
+}
+.text-cat{
+    /* Кіт спалив вісім із дев’яти своїх життів, хоча по дорозі втратив рахунок. */
+
+position: absolute;
+width: 272px;
+height: 69px;
+left: 100px;
+top: 1847px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.sallary{
+    /* Ціна 0грн */
+
+position: absolute;
+width: 108px;
+height: 28px;
+left: 178px;
+top: 1944px;
+
+background-color: #67DCFC;
+border-radius: 10px;
+padding: 10px;
+color:white;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+
+}
+.sallary:hover{
+    color:blue ;
+    box-shadow: 3px 3px 3px 3px #158178;
+    transition: 1.5s linear;
+}
+.dream-img{
+    /* image */
+
+position: absolute;
+width: 325px;
+height: 250px;
+left: 479px;
+top: 1499px;
+opacity:0.5;
+z-index: 0;
+background: url(image.png);
+
+}
+.dream-img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition:1.5s linear;
+    box-shadow: 3px 3px 3px 3px royalblue;
+    z-index: 1;
+}
+.dream-h4{
+    /*  Думками навиворіт */
+
+position: absolute;
+width: 307px;
+height: 38px;
+left: 479px;
+top: 1771px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.text-dream{
+    /* Після того, як юну Райлі виривають із життя на Середньому Заході та переїжджають до Сан-Франциско, її емоції  */
+
+position: absolute;
+width: 371.63px;
+height: 118.25px;
+left: 470px;
+top: 1837px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+transform: rotate(-0.44deg);
+
+}
+.sallary1{
+    /* Ціна 0грн */
+
+position: absolute;
+width: 108px;
+height: 28px;
+left: 554px;
+top: 1944px;
+
+background-color: #67DCFC;
+border-radius: 10px;
+padding: 10px;
+color:white;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+}
+.sallary1:hover{
+    color:blue ;
+    box-shadow: 3px 3px 3px 3px #158178;
+    transition: 1.5s linear;
+}
+.forest-img{
+    /* image */
+
+position: absolute;
+width: 325px;
+height: 250px;
+left: 859px;
+top: 1499px;
+opacity:0.5;
+z-index: 0;
+background: url(image.png);
+
+}
+.forest-img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition:1.5s linear;
+    box-shadow: 3px 3px 3px 3px royalblue;
+    z-index: 1;
+}
+.forest-h4{
+    /* Мавка:Лісова пісня */
+
+position: absolute;
+width: 295px;
+height: 38px;
+left: 859px;
+top: 1760px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.text2{
+    /* Стародавній чарівний Ліс ніколи не пускав людей у ​​свої таємничі глибини. */
+
+position: absolute;
+width: 365px;
+height: 46px;
+left: 859px;
+top: 1824px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.sallary3{
+    /* Ціна 0грн */
+
+position: absolute;
+width: 108px;
+height: 28px;
+left: 919px;
+top: 1944px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+background-color: #67DCFC;
+border-radius: 10px;
+padding: 10px;
+color:white;
+
+
+}
+.sallary3:hover{
+    color:blue ;
+    box-shadow: 3px 3px 3px 3px #158178;
+    transition: 1.5s linear;
+}
+.vidguk_1{
+    /* Відгуки */
+
+position: absolute;
+width: 168px;
+height: 56px;
+left: 549px;
+top: 2061px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.vidguk_1:hover{
+    color:#0D769D;
+    transform: scale(1.1);
+}
+.vidguk-img{
+    /* image */
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 149px;
+top: 2223px;
+border-radius: 50%;
+background: url(image.png);
+
+}
+.p{
+    /* Дуже дякую подивилася Чорний ворон 😍 */
+
+position: absolute;
+width: 700px;
+height: 28px;
+left: 487px;
+top: 2296px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+
+}
+.vidguk-img2{
+    /* image */
+
+position: absolute;
+border-radius: 50%;
+height: 150px;
+left: 149px;
+top: 2519px;
+width: 150px;
+background: url(image.png);
+
+}
+.p1{
+/* Я подивився свій олюблений фільм 🤯 */
+position: absolute;
+width: 450px;
+height:50px;
+left: 487px;
+top: 2592px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.cs{
+    /* Де нас знайти? */
+
+position: absolute;
+width: 344px;
+height: 56px;
+left: 468px;
+top: 2855px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.vol{
+    /* Водочиськ */
+
+position: absolute;
+width: 243px;
+height: 56px;
+left: 519px;
+top: 2963px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+iframe{
+    /* image */
+
+position: absolute;
+width: 670px;
+height: 500px;
+left: 305px;
+top: 3091px;
+
+background: url(image.png);
+
+}
+.adress{
+    /* Адреса */
+
+position: absolute;
+width: 125px;
+height: 42px;
+left: 577px;
+top: 3609px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+}
+.top{
+    /* місто Київ вул. Незалежності 34 */
+
+position: absolute;
+width: 362px;
+height: 84px;
+left: 459px;
+top: 3736px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.top1{
+    /* місто Харків вул. Сумська 60 */
+
+position: absolute;
+width: 271px;
+height: 84px;
+left: 504px;
+top: 3898px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.top2{
+    /* місто Львів вул. Богдана Хмельницького 14 */
+
+position: absolute;
+width: 540px;
+height: 84px;
+left: 370px;
+top: 4060px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+footer{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 1280px;
+
+left: 0px;
+top: 4269px;
+height: 446px;
+
+background: linear-gradient(90deg, #158178 0%, #1EA1D1 100%);
+
+}
+.contacts{
+    position: absolute;
+width: 297px;
+height: 42px;
+left: 3%;
+top: 3%;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+
+color: #040000;
+
+
+}
+.h5{
+
+position: absolute;
+width: 217px;
+height: 38px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+top:10%;
+left: 3%;
+color: #000000;
+
+
+}
+.h5:hover{
+    font-size:40px;
+    color:rgba(248, 249, 246, 0.929);
+    transition: 2s linear;
+}
+.soc{
+position: absolute;
+width: 174px;
+height: 38px;
+left: 5%;
+top: 40%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #040000;
+
+
+}
+.footer-img{
+position: absolute;
+background: url(image.png);
+width: 70px;
+height: 70px;
+margin-right: 3%;
+left: 30%;
+top:40%;
+
+}
+.footer-img1{
+position: absolute;
+background: url(image.png);
+width: 70px;
+height: 70px;
+margin-right: 3%;
+left: 40%;
+top:40%;
+
+}
+.footer-img2{
+position: absolute;
+background: url(image.png);
+width: 85px;
+height: 70px;
+margin-right: 3%;
+left: 50%;
+top:40%;
+
+}
+.footer-img3{
+opacity: 0.8;
+
+z-index: 0;
+background: url(image.png);
+border-radius: 35px;
+position: absolute;
+left: 70%;
+top:15%;
+width: 20%;
+
+}
+.footer-img3:hover{
+    width: 30%;
+    height: 190px;
+    z-index: 1;
+    opacity: 1;
+    transition: 3s linear;
+}
+footer p{
+    position: absolute;
+    top:135px;
+    left:50px;
+    font-size:24px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+}
+
+
